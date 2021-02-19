@@ -1,6 +1,6 @@
-#Youtube Subtitles Scraper
+# Youtube Subtitles Scraper
 
-##Installation
+## Installation
 install python3
 ```
 brew install python
@@ -10,7 +10,7 @@ install youtube-dl
 brew install youtube-dl
 ```
 
-##Scraping subtitles
+## Scraping subtitles
 ```
 python3 cli.py <youtube-link>
 ```
