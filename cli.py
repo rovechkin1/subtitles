@@ -6,6 +6,8 @@ from pathlib import Path
 
 def download_subtitles(link,lang='ru'):
     subtitle_file = youtube.download_subtitles(link,lang)
+    if len(subtitle_file) == 0:
+        return
     print('Downloaded', subtitle_file)
     f = open(subtitle_file, "r")
     lines = f.readlines()
